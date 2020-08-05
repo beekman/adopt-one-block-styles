@@ -1,0 +1,23 @@
+@media screen and (min-width: 419px) {
+  .btn-primary, a.btn.btn-primary {
+    padding: .375rem 2.4rem;
+    color: #fff;
+    background-color: #008cba;
+    border-color: #008cba;
+  }
+}
+
+@media screen and (max-width: 419px) {
+  .btn-primary, a.btn.btn-primary {
+    padding: .375rem 1.5rem;
+    color: #fff;
+    background-color: #008cba;
+    border-color: #008cba;
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  padding: .375rem 2.4rem;
+}
