@@ -1,6 +1,12 @@
 .Index-page--has-image h2 {
-  color: rgb(255 255 255);
+  color: rgb(255, 255, 255);
   text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 22.68px, 0 0 22.68px rgba(0, 0, 0, 0.8), 0 0 9px rgba(0, 0, 0, 0.8);
+}
+.sqs-block-button-element {
+
+}
+.sqs-block-button-element--large {
+
 }
 
 @media screen and (max-width: 600px) {
@@ -17,14 +23,14 @@
   }
 }
 .has-site-title .Mobile-bar-branding, .has-site-title .Header-branding {
-  text-rendering: optimizelegibility;
+  color: rgb(26, 31, 45);
   font-family: 'Nanum Gothic', sans-serif;
   font-weight: 800;
   font-style: normal;
   letter-spacing: 0;
   line-height: 1.1em;
+  text-rendering: optimizelegibility;
   text-transform: none;
-  color: rgb(26, 31, 45);
 }
 
 h1, h2, h3, p, body, * {
@@ -32,11 +38,12 @@ h1, h2, h3, p, body, * {
 }
 
 h1 {
-  margin-bottom: .5rem;
+  font-size: 5rem;
   font-weight: 800;
   line-height: 1.2;
-  font-size: 2.5rem;
+  margin-bottom: .5rem;
 }
+
 
 h2 {
   color: #7f9528;
@@ -50,43 +57,52 @@ h3 {
 
 h2, h3 {
   font-weight: 400;
-  text-decoration: none;
   font-style: normal;
+  text-decoration: none;
 }
+
 [class$="button-element"], [class$="editable-button"] {  /* WE USE * HERE */
   background-color: #008cba;
-  color: white;
   border-radius: 15px !important;
+  color: white;
   font-size: 1.5rem;
+}
+.Index-page--has-image .sqs-block-html h1,
+.Index-page--has-image .sqs-block-html p {
+  text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 22.68px, 0 0 22.68px rgba(0, 0, 0, 0.8), 0 0 9px rgba(0, 0, 0, 0.8);
 }
 
 .Index-page--has-image .sqs-block-html p a,
 .Footer-blocks h2 a,
 a {
-  text-decoration: none;
   border-bottom: 0;
+  text-decoration: none;
+}
+
+.Header-nav-item,
+.Header-nav-folder-title {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
 }
 
 @media screen and (min-width: 419px) {
-  .sqs-block-button .sqs-block-button-element--large, a.btn.btn-primary {
-    padding: .375rem 2.4rem;
-    color: #fff;
-    background-color: #008cba;
-    border-color: #008cba;
+  .sqs-block-button .sqs-block-button-element--large, .sqs-donate-button {
+    background-color: #008cba !important;
+    border-color: #008cba !important;
+    color: #fff !important;
+    font-family: 'Nanum Gothic',sans-serif !important;
+    font-size: 1.2rem !important;
+    padding: .375rem 2.4rem !important;
   }
 }
 
 @media screen and (max-width: 419px) {
-  .btn-primary, a.btn.btn-primary {
-    padding: .375rem 1.5rem;
+  .sqs-block-button .sqs-block-button-element--large, .sqs-donate-button {
+    background-color: #008cba !important;
+    border-color: #008cba !important;
     color: #fff;
-    background-color: #008cba;
-    border-color: #008cba;
+    font-family: 'Nanum Gothic',sans-serif !important;
+    font-size: 1.2rem !important;
+    padding: .375rem 1.5rem !important;;
   }
-}
-
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  padding: .375rem 2.4rem;
 }
