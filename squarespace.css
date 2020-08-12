@@ -2,11 +2,17 @@
   color: rgb(255, 255, 255);
   text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 22.68px, 0 0 22.68px rgba(0, 0, 0, 0.8), 0 0 9px rgba(0, 0, 0, 0.8);
 }
-.sqs-block-button-element {
 
+.Mobile-bar-branding-logo {
+  width: 460px !important;
+}
+
+footer.Footer {
+  background-color: transparent !important;
+}
+.sqs-block-button-element {
 }
 .sqs-block-button-element--large {
-
 }
 
 @media screen and (max-width: 600px) {
