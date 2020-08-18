@@ -5,6 +5,11 @@ header.Header {
   font-weight: 600 !important;
   font-size: 16px !important;
 }
+
+.Header-nav--primary .Header-nav-item {
+  font-size: 16px !important;
+}
+
 .Index-page-content {
   background-color: #ece9ee;
 }
@@ -28,29 +33,6 @@ a.Footer-nav-item {
   text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 22.68px, 0 0 22.68px rgba(0, 0, 0, 0.8), 0 0 9px rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (max-width: 600px) {
-  .has-site-title .Mobile-bar-branding {
-    font-size: 1.3rem;
-    font-weight: 400;
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width:1200px) {
-  .has-site-title .Mobile-bar-branding {
-    font-size: 2.5rem;
-    font-weight: 400;
-  }
-}
-.has-site-title .Mobile-bar-branding, .has-site-title .Header-branding {
-  color: rgb(26, 31, 45);
-  font-family: 'Nanum Gothic', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  letter-spacing: 7px;
-  line-height: 1.1em;
-  text-rendering: optimizelegibility;
-}
-
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
@@ -70,7 +52,7 @@ h1 {
 
 h2 {
   color: #7f9528;
-  font-size: 2.5rem;
+  font-size: 28px;
   font-weight: 300;
 }
 
@@ -123,8 +105,8 @@ a {
 
 @media screen and (max-width: 419px) {
   .sqs-block-button .sqs-block-button-element--large, .sqs-donate-button {
-    background-color: #008cba !important;
-    border-color: #008cba !important;
+    background-color: #008BBC !important;
+    border-color: #008BBC !important;
     color: #fff;
     font-family: 'Nanum Gothic',sans-serif !important;
     font-size: 1.2rem !important;
