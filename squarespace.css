@@ -1,7 +1,4 @@
-.Index-page--has-image h2 {
-  color: rgb(255, 255, 255);
-  text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 22.68px, 0 0 22.68px rgba(0, 0, 0, 0.8), 0 0 9px rgba(0, 0, 0, 0.8);
-}
+
 
 header.Header {
   background-color: #002A82;
@@ -18,6 +15,11 @@ footer.Footer {
 .sqs-block-button-element {
 }
 .sqs-block-button-element--large {
+}
+
+.Index-page--has-image h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 22.68px, 0 0 22.68px rgba(0, 0, 0, 0.8), 0 0 9px rgba(0, 0, 0, 0.8);
 }
 
 @media screen and (max-width: 600px) {
