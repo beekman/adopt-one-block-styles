@@ -3,12 +3,18 @@ header.Header {
   height: 112px;
   font-family: 'Montserrat';
   font-weight: 600 !important;
-  font-size: 16px !important;
+  font-size: 16px;
 }
 
-.Header-nav--primary .Header-nav-item {
-  font-size: 16px !important;
+header.Header .Header-nav-inner a:nth-child(3){
+  color: #008BBC;
+  background: white;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 0.25rem 1rem;
 }
+
+a.Header-nav-item
 
 .Index-page-content {
   background-color: #ece9ee;
@@ -17,15 +23,26 @@ header.Header {
   width: 460px !important;
 }
 
-footer.Footer {
-  background-color: transparent !important;
+footer.Footer p{
+  color: #008BBC !important;
+  font-family: 'Nanum Gothic';
+  font-size: 12px;
 }
+
 a.Footer-nav-item {
     text-transform: none;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-weight: 600;
     color: #002A82;
   font-size: 16pt;
+}
+
+.social-icons-color-black.social-icons-style-regular .sqs-use--icon {
+  fill: #008BBC !important;
+}
+
+.social-icons-color-black.social-icons-style-regular:hover .sqs-use--icon:hover {
+  fill: #A2CAED !important;
 }
 
 .Index-page--has-image h2 {
