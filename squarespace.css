@@ -3,7 +3,12 @@
   text-shadow: rgba(0, 0, 0, 0.8) 0px 0px 22.68px, 0 0 22.68px rgba(0, 0, 0, 0.8), 0 0 9px rgba(0, 0, 0, 0.8);
 }
 
-.Mobile-bar-branding-logo {
+header.Header {
+  background-color: #002A82;
+  height: 112px;
+}
+
+.Header-branding-logo {
   width: 460px !important;
 }
 
