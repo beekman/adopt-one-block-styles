@@ -6,7 +6,17 @@ header.Header {
   font-size: 16px;
 }
 
-header.Header .Header-nav-inner a:nth-child(3){
+.Index-page-content .sqs-block-image .image-block-outer-wrapper:not(.image-block-v2) .intrinsic {
+    max-width: 500px !important;
+    max-height: 200px !important;
+}
+
+header.Header.Header--bottom {
+    box-shadow: 0px 0.5rem 0.5rem rgba(0,0,0,0.2) !important;
+    margin: 0 0 .5rem 0;
+}
+
+header.Header .Header-nav-inner a:nth-child(2){
   color: #008BBC;
   background: white;
   font-size: 16px;
@@ -14,14 +24,15 @@ header.Header .Header-nav-inner a:nth-child(3){
   padding: 0.25rem 1rem;
 }
 
-a.Header-nav-item
+.Mobile-bar.Mobile-bar--top {
+  box-shadow: 0px .25rem 0.1rem #AAA !important;
+}
 
-.Index-page-content {
+a.Header-nav-item .Index-page-content {
   background-color: #ece9ee;
 }
-.Header-branding-logo {
-  width: 460px !important;
-}
+
+
 
 footer.Footer p{
   color: #008BBC !important;
@@ -59,7 +70,7 @@ p, body, * {
 }
 
 h1 {
-  font-size: 32pt;
+  font-size: 32px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700 !important;
   line-height: 1.2;
