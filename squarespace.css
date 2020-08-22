@@ -6,11 +6,6 @@ header.Header {
   font-size: 16px;
 }
 
-.Index-page-content .sqs-block-image .image-block-outer-wrapper:not(.image-block-v2) .intrinsic {
-    max-width: 500px !important;
-    max-height: 200px !important;
-}
-
 header.Header.Header--bottom {
     box-shadow: 0px 0.5rem 0.5rem rgba(0,0,0,0.2) !important;
     margin: 0 0 .5rem 0;
